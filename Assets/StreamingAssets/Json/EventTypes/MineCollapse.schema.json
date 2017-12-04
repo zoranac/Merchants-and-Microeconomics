@@ -1,0 +1,141 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "EventType",
+  "type": "object",
+  "properties": {
+    "Name": {
+      "type": "string"
+    },
+    "Scale": {
+      "type": "string",
+      "enum": [
+        "Global",
+        "Towns",
+        "Town",
+        "Locations",
+        "Location"
+      ]
+    },
+    "MinDuration": {
+      "type": "integer",
+      "format": "int32"
+    },
+    "MaxDuration": {
+      "type": "integer",
+      "format": "int32"
+    },
+    "PreemptiveKnowledgeDuration": {
+      "type": "integer",
+      "format": "int32"
+    },
+    "OccurringChanceMultiplier": {
+      "type": "number"
+    },
+    "Effects": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "object",
+        "properties": {
+          "Item": {
+            "type": "string",
+            "enum": [
+              "Crops",
+              "Luxuries",
+              "Raw Materials",
+              "Tools",
+              "Weapons"
+            ]
+          },
+          "BasePriceChange": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "WantChanceChange": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "AvalibilityChange": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ProductionRateChage": {
+            "type": "number"
+          }
+        }
+      }
+    },
+    "LocationTypesAffected": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "string",
+        "enum": [
+          "Farm",
+          "Bank"
+        ]
+      }
+    },
+    "TownTypesAffected": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "string",
+        "enum": [
+          "Village",
+          "City"
+        ]
+      }
+    },
+    "FutureKnowledgeChance": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "object",
+        "properties": {
+          "occupation": {
+            "type": "string",
+            "enum": [
+              "Farmer",
+              "Banker"
+            ]
+          },
+          "chance": {
+            "type": "integer",
+            "format": "int32"
+          }
+        }
+      }
+    },
+    "CurrentKnowledgeChance": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "object",
+        "properties": {
+          "occupation": {
+            "type": "string",
+            "enum": [
+              "Farmer",
+              "Banker"
+            ]
+          },
+          "chance": {
+            "type": "integer",
+            "format": "int32"
+          }
+        }
+      }
+    }
+  }
+}

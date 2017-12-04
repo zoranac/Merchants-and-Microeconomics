@@ -1,0 +1,19 @@
+﻿{
+  "Name": "Test Town",
+  "Type": "Village",
+  "Size": "Medium",
+  "RequiredLocations": [
+    {
+      "LocationType": "Farm",
+      "Amount": 5
+    },
+    {
+      "LocationType": "Bank",
+      "Amount": 1
+    }
+  ],
+  "OptionalLocations": [
+    "Farm"
+  ],
+  "MaxLocations": 10
+}

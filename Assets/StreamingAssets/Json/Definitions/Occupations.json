@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/microEcon/schema#",
+  "definitions": {
+    "Occupation": {
+      "type": "string",
+      "enum": [
+        "Farmer",
+        "Banker"
+      ]
+    }
+  }
+}

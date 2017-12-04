@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/microEcon/schema#",
+  "definitions": {
+    "Item": {
+      "type": "string",
+      "enum": [
+        "Crops",
+        "Luxuries",
+        "RawMaterials",
+        "Tools",
+        "Weapons"
+      ]
+    }
+  }
+}

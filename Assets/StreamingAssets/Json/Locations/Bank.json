@@ -1,0 +1,9 @@
+﻿{
+  "Name": "Bank",
+  "OwnerOccupation": "Banker",
+  "DiscoveryChanceMultiplier": 75.0,
+  "BaseOpenTimeMin": 3,
+  "BaseOpenTimeMax": 5,
+  "BaseCloseTimeMin": 6,
+  "BaseCloseTimeMax": 8
+}

@@ -1,0 +1,9 @@
+﻿{
+  "Name": "Farm",
+  "OwnerOccupation": "Farmer",
+  "DiscoveryChanceMultiplier": 75.0,
+  "BaseOpenTimeMin": 2,
+  "BaseOpenTimeMax": 4,
+  "BaseCloseTimeMin": 7,
+  "BaseCloseTimeMax": 9
+}

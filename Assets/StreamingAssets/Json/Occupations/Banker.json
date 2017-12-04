@@ -1,0 +1,8 @@
+﻿{
+  "Name": "Banker",
+  "ProducesItems": false,
+  "ProductionSpeed": 0.0,
+  "BaseGossipAmount": 10,
+  "NormalAmountPurchasedForProduction": 0,
+  "NormalNumberOfSales": 0
+}

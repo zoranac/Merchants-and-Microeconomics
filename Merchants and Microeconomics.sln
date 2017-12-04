@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merchants and Microeconomics", "Merchants and Microeconomics.csproj", "{726CF43A-DDAD-DE6A-F465-569835D6C89F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merchants and Microeconomics.Editor", "Merchants and Microeconomics.Editor.csproj", "{D373D9E6-E286-327E-60B7-37A5228BB8D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{726CF43A-DDAD-DE6A-F465-569835D6C89F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{726CF43A-DDAD-DE6A-F465-569835D6C89F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{726CF43A-DDAD-DE6A-F465-569835D6C89F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{726CF43A-DDAD-DE6A-F465-569835D6C89F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D373D9E6-E286-327E-60B7-37A5228BB8D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D373D9E6-E286-327E-60B7-37A5228BB8D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D373D9E6-E286-327E-60B7-37A5228BB8D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D373D9E6-E286-327E-60B7-37A5228BB8D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

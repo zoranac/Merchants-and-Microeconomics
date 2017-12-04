@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Occupation",
+  "type": "object",
+  "properties": {
+    "Name": {
+      "type": "string"
+    },
+    "BuyItems": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "string",
+        "enum": [
+          "Crops",
+          "Luxuries",
+          "RawMaterials",
+          "Tools",
+          "Weapons"
+        ]
+      }
+    },
+    "SellItems": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "string",
+        "enum": [
+          "Crops",
+          "Luxuries",
+          "RawMaterials",
+          "Tools",
+          "Weapons"
+        ]
+      }
+    },
+    "ProducesItems": {
+      "type": "boolean"
+    },
+    "ProductionSpeed": {
+      "type": "number"
+    },
+    "BaseGossipAmount": {
+      "type": "integer"
+    },
+    "NormalAmountPurchasedForProduction": {
+      "type": "integer"
+    },
+    "NormalNumberOfSales": {
+      "type": "integer"
+    }
+  }
+}

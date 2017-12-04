@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Farmer",
+  "BuyItems": [
+    "Tools"
+  ],
+  "SellItems": [
+    "Crops"
+  ],
+  "ProducesItems": true,
+  "ProductionSpeed": 2.0,
+  "BaseGossipAmount": 10,
+  "NormalAmountPurchasedForProduction": 1,
+  "NormalNumberOfSales": 50
+}

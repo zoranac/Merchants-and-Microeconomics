@@ -1,0 +1,62 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Town",
+  "type": "object",
+  "properties": {
+    "Name": {
+      "type": "string"
+    },
+    "Type": {
+      "type": "string",
+      "enum": [
+        "Village",
+        "City"
+      ]
+    },
+    "Size": {
+      "type": "string",
+      "enum": [
+        "Small",
+        "Medium",
+        "Large"
+      ]
+    },
+    "RequiredLocations": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "object",
+        "properties": {
+          "LocationType": {
+            "type": "string",
+            "enum": [
+              "Farm",
+              "Bank"
+            ]
+          },
+          "Amount": {
+            "type": "integer"
+          }
+        }
+      }
+    },
+    "OptionalLocations": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "string",
+        "enum": [
+          "Farm",
+          "Bank"
+        ]
+      }
+    },
+    "MaxLocations": {
+      "type": "integer"
+    }
+  }
+}

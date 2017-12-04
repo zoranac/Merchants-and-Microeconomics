@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Location",
+  "type": "object",
+  "properties": {
+    "Name": {
+      "type": "string"
+    },
+    "OwnerOccupation": {
+      "type": "string",
+      "enum": [
+        "Farmer",
+        "Banker"
+      ]
+    },
+    "DiscoveryChanceMultiplier": {
+      "type": "number"
+    },
+    "BaseOpenTimeMin": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 11
+    },
+    "BaseOpenTimeMax": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 11
+    },
+    "BaseCloseTimeMin": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 11
+    },
+    "BaseCloseTimeMax": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 11
+    }
+  }
+}

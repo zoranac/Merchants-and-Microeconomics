@@ -1,0 +1,41 @@
+﻿{
+  "Name": "Mine Collapse",
+  "Scale": "Town",
+  "MinDuration": 10,
+  "MaxDuration": 15,
+  "PreemptiveKnowledgeDuration": 0,
+  "OccurringChanceMultiplier": 5.0,
+  "Effects": [
+    {
+      "Item": "Raw Materials",
+      "BasePriceChange": 10,
+      "WantChanceChange": 0,
+      "AvalibilityChange": 0,
+      "ProductionRateChage": -0.25
+    }
+  ],
+  "TownTypesAffected": [
+    "Village"
+  ],
+  "FutureKnowledgeChance": [
+    {
+      "occupation": "Farmer",
+      "chance": 0
+    },
+    {
+      "occupation": "Banker",
+      "chance": 0
+    }
+  ],
+  "CurrentKnowledgeChance": [
+    {
+      "occupation": "Farmer",
+      "chance": 50
+    },
+    {
+      "occupation": "Banker",
+      "chance": 75
+    }
+  ],
+  "BasePrice": 100
+}

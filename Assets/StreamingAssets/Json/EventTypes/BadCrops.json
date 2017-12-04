@@ -1,0 +1,44 @@
+﻿{
+  "Name": "Bad Crops",
+  "Scale": "Location",
+  "MinDuration": 5,
+  "MaxDuration": 10,
+  "PreemptiveKnowledgeDuration": 10,
+  "OccurringChanceMultiplier": 5.0,
+  "Effects": [
+    {
+      "Item": "Crops",
+      "BasePriceChange": 9,
+      "WantChanceChange": 0,
+      "AvalibilityChange": 0,
+      "ProductionRateChage": -0.25
+    }
+  ],
+  "LocationTypesAffected": [
+    "Farm"
+  ],
+  "TownTypesAffected": [
+    "Village"
+  ],
+  "FutureKnowledgeChance": [
+    {
+      "occupation": "Farmer",
+      "chance": 15
+    },
+    {
+      "occupation": "Banker",
+      "chance": 0
+    }
+  ],
+  "CurrentKnowledgeChance": [
+    {
+      "occupation": "Farmer",
+      "chance": 95
+    },
+    {
+      "occupation": "Banker",
+      "chance": 10
+    }
+  ],
+  "BasePrice": 100
+}
